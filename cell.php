@@ -2,7 +2,7 @@
 /**
  *
  * @file
- * @version 1.0
+ * @version 1.1
  * @copyright 2015 CN-Consult GmbH
  * @author Jens Stahl <jens.stahl@cn-consult.eu>
  */
