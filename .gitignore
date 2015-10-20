@@ -28,6 +28,9 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 /backups/*
+/.idea/*
+/gif/*
+/gif_stub/*
 
 # Thumbnails
 ._*
