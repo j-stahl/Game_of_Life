@@ -56,7 +56,7 @@ class GameField
             for ($j = 0; $j < $this->width; $j++)
             {
                 if ($_transmittedString[$position] == "x")
-                {
+                {/** @var Cell $cell */
                     $cell =$this->fieldCells[$i][$j];
                     $cell->setAlive();
                 }
@@ -74,7 +74,7 @@ class GameField
         for ($i = 0; $i < $this->height; $i++)
         {
             for ($j = 0; $j < $this->width; $j++)
-            {
+            {/** @var Cell $cell */
                 $cell = $this->fieldCells[$i][$j];
                 $cell->cycle();
             }
