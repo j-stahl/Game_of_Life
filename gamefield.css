@@ -1,0 +1,22 @@
+.pitch
+{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+.pitch td
+{
+    width:  10px;
+    height: 10px;
+    border: 1px solid lightgrey;
+}
+
+fieldset
+{
+    display: inline-block;
+    /*max-width: 260px;*/
+
+    position: fixed;
+    left: 230px;
+    top:   60px;
+}
